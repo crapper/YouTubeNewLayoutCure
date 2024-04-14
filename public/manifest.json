@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube New Layout Cure",
+  "short_name": "YouTube New Layout Cure",
+  "version": "0.0.1",
+  "description": "This is a saver chrome Extension for cure on the new YouTube Layout",
+  "icons": {
+    "16": "/icons/icon16.png",
+    "32": "/icons/icon32.png",
+    "48": "/icons/icon48.png",
+    "192": "/icons/icon192.png"
+  },
+  "permissions": [],
+  "web_accessible_resources": [
+    {
+      "resources": ["index.html"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["inject.js"]
+    }
+  ],
+  "host_permissions": ["<all_urls>"]
+}
