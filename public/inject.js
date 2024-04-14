@@ -1,6 +1,5 @@
 // YouTube new layout cure
 const timerId = setInterval(() => {
-  console.log("timerId");
   const testingElement = document.querySelector("#columns > #primary");
   if (testingElement === null) return;
 
