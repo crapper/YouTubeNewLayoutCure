@@ -1,7 +1,7 @@
 {
-  "name": "next-chrome-starter",
+  "name": "youtube-new-layout-cure",
   "version": "0.0.1",
-  "description": "Next.js Chrome Extension Starter, Demo Example by ibnzUK. https://github.com/ibnzUK/next-chrome-starter",
+  "description": "This is a saver chrome Extension for cure on the new YouTube Layout",
   "main": "index.js",
   "scripts": {
     "build": "npm run prep",
@@ -12,7 +12,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "glob": "^10.2.3",
     "next": "^13.4.1",
